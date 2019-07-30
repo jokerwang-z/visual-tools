@@ -1,0 +1,20 @@
+{
+  "name": "visual-tools",
+  "version": "1.0.0",
+  "description": "vishal tools with svg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --entry ./index.js -w ./index.js --output-path dist --output-filename index.min.js --output-library-target umd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokerwang-z/visual-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jokerwang-z/visual-tools/issues"
+  },
+  "homepage": "https://github.com/jokerwang-z/visual-tools#readme"
+}
